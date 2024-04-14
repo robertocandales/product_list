@@ -1,16 +1,7 @@
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import { Toolbar, Typography } from '@mui/material';
 import { useOrder } from '../store/orderProvider';
 import { formatToUSD } from '../utils/currency';
-import styled from '@emotion/styled';
-
-const StyledHeader = styled(AppBar)`
-  background-color: red;
-`;
-
-const Logo = styled.img`
-  height: 40px; /* Adjust height as needed */
-  margin-right: 10px;
-`;
+import { Logo, StyledHeader } from './styles';
 
 const Header = () => {
   const { subTotal } = useOrder();

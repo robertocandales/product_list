@@ -1,6 +1,5 @@
 import {
   Grid,
-  Card,
   CardMedia,
   CardContent,
   Typography,
@@ -18,6 +17,7 @@ import {
 import useProductList from '../hooks/useProductList';
 import { formatToUSD } from '../utils/currency';
 import { Product } from '../interfaces/products';
+import { ProductCard } from './styles';
 
 export function ProductList() {
   const { breakpoints } = useTheme();
@@ -72,7 +72,7 @@ export function ProductList() {
       <Grid container spacing={4} sx={{ padding: 4 }}>
         {productsList?.map((product: Product) => (
           <Grid item key={product.id} xs={12} sm={6} md={4} sx={{}}>
-            <Card
+            <ProductCard
               sx={{
                 height: '100%',
                 display: 'flex',
@@ -130,7 +130,7 @@ export function ProductList() {
                   Buy
                 </Button>
               </CardActions>
-            </Card>
+            </ProductCard>
           </Grid>
         ))}
         <Snackbar
