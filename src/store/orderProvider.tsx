@@ -13,7 +13,6 @@ interface OrderContextType {
   addToOrder: (item: OrderItem) => void;
 }
 
-// Create the context
 const OrderContext = createContext<OrderContextType>({
   orderItems: [],
   subTotal: 0,

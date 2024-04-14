@@ -40,3 +40,17 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `Environment Variables`
+
+To run the project, you need to set up an environment variable for the API URL. Follow these steps:
+
+Create a file named .env in the root directory of the project.
+Add the following line to the .env file:
+
+```plaintext
+REACT_APP_API_URL=https://readonlydemo.vendure.io/shop-api
+
+Replace https://readonlydemo.vendure.io/shop-api with the actual API URL you are using.
+
+```
