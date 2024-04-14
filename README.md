@@ -53,3 +53,16 @@ REACT_APP_API_URL=https://readonlydemo.vendure.io/shop-api
 ```
 
 Replace https://readonlydemo.vendure.io/shop-api with the actual API URL you are using.
+
+## Dektop version
+![Prodcts 1](https://github.com/robertocandales/product_list/assets/61159123/c6706e64-87c9-433d-b238-b09dc571740d)
+![Prodcts 2](https://github.com/robertocandales/product_list/assets/61159123/d0935e23-0fb6-4ae2-8e64-3bb17c3655fe)
+
+## Mobile version
+![Prodcts 1](https://github.com/robertocandales/product_list/assets/61159123/51865b91-8d2e-4135-945d-e8e8c0ee200a)
+
+![Prodcts 2](https://github.com/robertocandales/product_list/assets/61159123/8cfdf9e9-2f38-40d4-a3a9-e157cdf66767)
+
+
+
+
